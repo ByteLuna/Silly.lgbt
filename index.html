@@ -2,23 +2,56 @@
 <html>
 <head>
 <title>Sillyyyy :3</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
 <meta property="og:type" content="silly.lgbt">
 <meta property="og:title" content="Silly peeps :3" />
 <meta property="og:description" content="Website of the silly peeps" />
 <meta property="og:url" content="https://silly.lgbt/" />
 <meta property="og:image" content="" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poetsen+One">
-</head>
+
 <style>
-    body {
-      font-family: "Poetsen One", sans-serif;
-      padding-left:1%;
-    }
-    </style>
+body, html {
+  font-family: "Poetsen One", sans-serif;
+  padding-left:0%;
+  height: 100%;
+  margin: 0;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("assets/nerd.png");
+  
+  /* Add the blur effect */
+  filter: blur(2px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.all {
+  z-index: 2;
+  top: 0%;
+  left: 1%;
+  position: absolute;
+}
+
+.all h1, .all p, .all h2, .all a {
+  color: #f0f0f0; /* Light color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+</style>
+</head>
 <body>
 
+<div class="bg-image"></div>
+
+<div class="all">
 <h1>Haiii!! :3</h1>
 <p>Welcome to Silly!!!</p>
 <p>We are a community of silly people who like to do silly things</p>
@@ -28,21 +61,15 @@
         <p><a href="https://discord.gg/S4bR35uV4j">Sillycord</a></p>
     </li>
     <li>
-        <p>
-            <a href="https://x.com/SillyLGBTQ">Sillybird</a>
-        </p>
+        <p><a href="https://x.com/SillyLGBTQ">Sillybird</a></p>
     </li>
     <li>
-    <p>
-        <a href="https://silly.lgbt/luna">The silliest</a>
-    </p>
+        <p><a href="https://silly.lgbt/luna">The silliest</a></p>
     </li>
     <li>
-        <p>
-            <a href="https://twitch.tv/ByteLuna">The streams</a>
-        </p>
+        <p><a href="https://twitch.tv/ByteLuna">The streams</a></p>
     </li>
 </ul>
-
+</div>
 </body>
 </html>
